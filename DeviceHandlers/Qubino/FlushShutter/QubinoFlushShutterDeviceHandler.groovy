@@ -540,7 +540,14 @@ def calibrate() {
  * @return void.
 */
 def setLevel(level) {
-	log.debug "Qubino Flush Shutter: setLevel()"
+	log.debug "Qubino Flush Shutter: setLevel(${level})"
+	if(level > 99) level = 99
+	zwave.switchMultilevelV3.switchMultilevelSet(value: level, dimmingDuration: 0x00).format()
+}
+
+def setLevel(String strLevel) {
+	def level = strLevel.toInteger()
+	log.debug "Qubino Flush Shutter: setLevel(${level}) s"
 	if(level > 99) level = 99
 	zwave.switchMultilevelV3.switchMultilevelSet(value: level, dimmingDuration: 0x00).format()
 }
