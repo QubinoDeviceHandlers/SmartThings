@@ -1,7 +1,7 @@
 /**
  *  Qubino Flush Shutter DC
  *	Device Handler 
- *	Version 1.0
+ *	Version 1.01
  *  Date: 17.3.2017
  *	Author: Kristjan Jam&scaron;ek (Kjamsek), Goap d.o.o.
  *  Copyright 2017 Kristjan Jam&scaron;ek
@@ -36,6 +36,7 @@
  *	CHANGELOG:
  *	0.99: Final release code cleanup and commenting
  *	1.00: Added comments to code for readability
+ *  1.01: A small of the setLevel method
  */
 metadata {
 	definition (name: "Qubino Flush Shutter DC", namespace: "Goap", author: "Kristjan Jam&scaron;ek") {

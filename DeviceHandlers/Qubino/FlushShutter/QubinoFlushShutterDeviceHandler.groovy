@@ -1,7 +1,7 @@
 /**
  *  Qubino Flush Shutter
  *	Device Handler 
- *	Version 1.0
+ *	Version 1.11
  *  Date: 10.8.2017
  *	Author: Kristjan Jam&scaron;ek (Kjamsek), Goap d.o.o.
  *  Copyright 2017 Kristjan Jam&scaron;ek
@@ -37,6 +37,7 @@
  *	0.99: Final release code cleanup and commenting
  *	1.00: Added comments to code for readability
  *  1.10: Added Stop button to stop vertical axis motion
+ *  1.11: A small fix of the setLevel method
  */
 metadata {
 	definition (name: "Qubino Flush Shutter", namespace: "Goap", author: "Kristjan Jam&scaron;ek") {
