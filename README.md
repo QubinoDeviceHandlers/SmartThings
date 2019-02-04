@@ -1,5 +1,10 @@
 # SmartThings
-This repository contains device handlers for use with Samsung's SmartThings home automation controller.
+This repository contains device handlers, for Qubino devices, for use with Samsung's SmartThings home automation controller. 
+
+Please note, that there exists an older repository, which contains older versions of device handlers:
+https://github.com/kjamsek/SmartThings
+
+We advise that you do not use files from that repository.
 
 ## Overview
 
